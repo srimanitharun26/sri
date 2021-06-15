@@ -1,0 +1,115 @@
+body{
+background-color: lightgrey;
+color: black;
+}
+h1{
+	text-align: center;
+  font-size: 35px;
+}
+.image {
+  background: url("./images/main.jpg");
+  background-color: #cccccc;
+
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.tharun {
+  text-align: top;
+  color:black;
+  position: absolute;
+  font-style: italic;
+  font-weight: 100px;
+  top: 65%;
+  left: 60%;
+ 
+}
+.tharun h1{
+  font-family: monospace;
+  font-size-adjust: none;
+  color: whitesmoke;
+}
+
+.icons ul{
+  text-align: center;
+  list-style: inline;
+  list-style: none;
+  padding: 0 50px 0 0;
+
+
+}
+.icons li{
+  display: inline;
+  padding: 50px 5px 0 5px;
+}
+
+.section p{
+  text-align: center;
+
+}
+.artcle .img{
+    text-align: center;
+    border-radius: 15px;
+   
+
+}
+
+#details ul{
+  padding: 10px;
+  border: 10px;
+  text-align: center;
+
+
+}
+#details li{
+    list-style: none;
+
+}
+.skills h1{
+    text-align: center;
+    text-shadow: black;
+    font-size: 35px;
+
+}
+.skills p{
+    text-align: center;
+}
+
+.technology li{
+  text-align: center;
+  list-style: none;
+  padding: 10px ;
+  border: 10px;
+  margin: 10px;
+  display: inline;
+  border-image: 20px;
+  font-size: 25px;
+}
+.technology  img{
+  padding: 0 0 0 20px;
+  width: 30px;
+
+}
+
+@media{
+h1{
+  text-align: center;
+}
+}
+
+/*@media (max-width: 600px){
+body{
+width: 100%;
+float: none;
+}
+.main .tharun{
+  text-align: center;
+  float: none;
+
+
+}
+
+}*/
