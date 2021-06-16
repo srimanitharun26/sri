@@ -7,7 +7,7 @@ h1{
   font-size: 35px;
 }
 .image {
-  background: url("./images/main.jpg");
+  background: url("main.jpg");
   background-color: #cccccc;
 
   height: 100vh;
