@@ -1,3 +1,4 @@
+@media(min-width: 100px){
 body{
 background-color: lightgrey;
 color: black;
@@ -93,14 +94,14 @@ h1{
   width: 30px;
 
 }
-
-@media{
+}
+/*@media{
 h1{
   text-align: center;
 }
 }
 
-/*@media (max-width: 600px){
+@media (max-width: 600px){
 body{
 width: 100%;
 float: none;
